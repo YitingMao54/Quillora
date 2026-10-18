@@ -1,6 +1,8 @@
 """文件夹扫描 / 结构化入库 / 来源解析 单元测试"""
 from pathlib import Path
 
+import pytest
+
 from agent.enrich.scanner import scan_folder
 from agent.enrich.store import EnrichStore
 from agent.knowledge import SOURCE_LABELS, KnowledgeSource
@@ -8,7 +10,14 @@ from agent.knowledge import SOURCE_LABELS, KnowledgeSource
 KB_ROOT = Path(__file__).resolve().parent.parent.parent   # 知识库根目录（项目上级）
 SAMPLE_DIR = KB_ROOT / "P1-产品参数库" / "02-MateBook-Windows" / "MateBook X系列"
 
+# 依赖外部知识库的用例：单独克隆仓库（无 P1-P8）时跳过，其余用例仍照常执行
+requires_kb = pytest.mark.skipif(
+    not SAMPLE_DIR.is_dir(),
+    reason=f"缺少 P1-P8 知识库（{KB_ROOT}），可用 LOCAL_KB_ROOT 指向知识库根目录",
+)
 
+
+@requires_kb
 def test_scan_folder_finds_model_and_urls():
     result = scan_folder(str(SAMPLE_DIR),
                          known_models=["HUAWEI MateBook X Pro 酷睿 Ultra 微绒典藏版"])
@@ -23,6 +32,7 @@ def test_scan_folder_error_feedback():
     assert not bad.ok and bad.error
 
 
+@requires_kb
 def test_scan_skips_asset_urls():
     result = scan_folder(str(SAMPLE_DIR))
     for info in result.models.values():
@@ -49,6 +59,7 @@ def test_parse_sources():
     assert set(SOURCE_LABELS) == {"ima", "local", "enrich"}
 
 
+@requires_kb
 def test_local_only_search_no_network():
     ks = KnowledgeSource()
     ks.initialize("local")

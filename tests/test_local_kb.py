@@ -1,9 +1,18 @@
 """本地知识库检索：型号识别（防混淆）与图片型号一致性"""
 from pathlib import Path
 
+import pytest
+
 from agent.local_kb import LocalKnowledgeBase
 
 KB_ROOT = Path(__file__).resolve().parent.parent.parent
+
+# 知识库（P1-P8）是仓库外部的同源资料：仓库只发布代码与示例产物，
+# 单独克隆时没有知识库属于正常情况，相关用例跳过而不是报错。
+pytestmark = pytest.mark.skipif(
+    not (KB_ROOT / "P1-产品参数库").is_dir(),
+    reason=f"缺少 P1-P8 知识库（{KB_ROOT}），可用 LOCAL_KB_ROOT 指向知识库根目录",
+)
 
 
 def _kb() -> LocalKnowledgeBase:

@@ -81,6 +81,17 @@ python scripts/run_demo.py --product "HUAWEI MateBook Pro" --audience 大学新�
 
 结果按赛题统一输出格式打印，并保存到 `data/outputs/`。
 
+## 测试
+
+```bash
+pip install pytest ruff
+pytest -q
+ruff check .
+```
+
+说明：依赖外部 P1-P8 知识库的用例（型号识别、图片一致性、文件夹扫描）在知识库缺失时会**自动跳过**并给出原因，
+不阻塞单独克隆仓库的验证；把知识库放回项目上级目录（或用 `LOCAL_KB_ROOT` 指定）即可全部执行。
+
 ## 统一输出格式
 
 ```
