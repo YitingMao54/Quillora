@@ -1,0 +1,11 @@
+# Streamlit 全局配置：暗色主题（保证深色底上的文字对比度）+ 关闭遥测
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "dark"
+primaryColor = "#FF5A4D"
+backgroundColor = "#0F1219"
+secondaryBackgroundColor = "#171B24"
+textColor = "#ECEFF5"

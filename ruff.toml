@@ -1,0 +1,7 @@
+# 代码规范配置：聚焦真实问题（语法错误/未使用代码/基础风格）
+line-length = 100
+target-version = "py39"
+
+[lint]
+select = ["E", "F", "W"]
+ignore = ["E501"]   # 行长由格式约定控制，不作为报错项
