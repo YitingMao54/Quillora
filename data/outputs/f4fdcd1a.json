@@ -1,0 +1,534 @@
+{
+  "task": {
+    "task_id": "f4fdcd1a",
+    "product": "HUAWEI MateBook X Pro 酷睿 Ultra 微绒典藏版",
+    "target_audience": "职场人士",
+    "scenario": "移动办公",
+    "platform": "公众号",
+    "content_goal": "种草",
+    "special_requirements": [],
+    "created_at": "2026-10-18T17:04:51.941660"
+  },
+  "strategy": {
+    "audience_analysis": {
+      "profile": "经常出差、跑客户现场、需要在途中和会议中处理文档与演示的职场人士（销售、咨询、项目管理者），对设备的便携性、开合即用与多设备协同敏感，购买阶段多处于考虑期，会横向比较重量、屏幕与系统配置。",
+      "pain_points": [
+        "差旅通勤负重压力大，希望机身轻便、随包携带不成为负担",
+        "客户现场需要快速投屏演示、临时网络与资料回传，流程容易被打断",
+        "长时间看文档与表格，对屏幕清晰度与比例有要求，但担心高刷/高亮等参数与实际配置不一致",
+        "同一型号存在不同系统、CPU、内存与SSD组合，担心买到的版本与需求不匹配"
+      ],
+      "buying_stage": "考虑期（已有关注，正在核对具体配置与适用性）",
+      "decision_factors": [
+        "整机重量与便携性（约980 g，需按具体SKU核对）",
+        "屏幕规格与出厂刷新率设置（14.2英寸OLED、3120×2080、3:2，Windows出厂最高60 Hz可切120 Hz）",
+        "系统与处理器组合是否匹配必用软件（Windows 11家庭版或Linux版；Ultra 9 185H仅Windows，另有Ultra 7 155H）",
+        "内存与SSD销售组合（16/32 GB、1/2 TB）",
+        "移动办公链路：投屏、扩展坞、供电与线缆、账号与协同设备版本"
+      ]
+    },
+    "content_strategy": {
+      "angle": "以“移动办公的一天”为叙事主线：从出发前的资料准备、途中离线处理，到客户现场投屏演示与资料回传，把 MateBook X Pro 酷睿 Ultra 微绒典藏版的便携与屏幕体验放进真实工作链路，同时明确提示配置需按具体SKU核对，帮助考虑期用户形成候选清单。",
+      "priority_features": [
+        "约980 g机身重量，面向差旅携带场景（来源：卖点与限制·型号身份卡；须按具体SKU核对实际整套重量）",
+        "14.2英寸OLED原色屏，3120×2080、3:2、屏占比93%，适合文档与表格阅读（来源：卖点与限制·屏幕与显示卡；Windows版出厂最高60 Hz可切120 Hz，1000 nits为HDR局部峰值，须保留限定条件）",
+        "系统与处理器组合可选：Windows 11家庭版或Linux版，Ultra 9 185H（仅Windows）或Ultra 7 155H，内存16/32 GB、SSD 1/2 TB（来源：卖点与限制·型号身份卡；须按销售SKU绑定）"
+      ],
+      "selling_order_reason": "移动办公人群的第一决策阻力是携带负担，先用重量建立场景代入；随后用屏幕规格回应长时间文档处理的体验诉求；最后用系统/处理器/存储组合把用户从“感兴趣”推进到“核对配置”，符合考虑期的决策路径，也避免把系列级参数写成单一配置的确定参数。",
+      "tone": "专业中带亲和，以工作场景叙述为主，参数只作为场景支撑，并保留配置限定条件。",
+      "avoid": [
+        "绝对化用语：最、第一、唯一、完美、极致、顶级、首选等",
+        "虚假承诺：保证、百分百、绝对、必然等",
+        "把系列页“最高/可选/约”参数写成当前SKU固定配置",
+        "把Ultra 9 185H写成所有系统版本通用",
+        "虚构价格、补贴、赠品、库存、销量、奖项或用户评价",
+        "无依据的竞品对比与贬低",
+        "虚构软件测试结果或续航/性能结论"
+      ]
+    },
+    "platform_adaptation": {
+      "title_style": "15-30字，场景化+型号身份，避免绝对化，如“出差带什么电脑？先看这台约980 g的移动办公候选”",
+      "structure": "标题+1-2句导语+3-5段分段正文（每段一个小主题）+结尾行动引导+配图2-4张",
+      "paragraph_plan": [
+        "导语与场景切入：移动办公的一天从出发前开始，引出便携与开合即用的关注点",
+        "途中与现场：约980 g机身重量对差旅携带的意义（标注来源与SKU核对提示）",
+        "屏幕与文档处理：14.2英寸OLED、3120×2080、3:2的阅读体验，保留出厂刷新率与HDR峰值亮度限定",
+        "配置核对：Windows/Linux、Ultra 9 185H（仅Windows）与Ultra 7 155H、16/32 GB与1/2 TB需按销售SKU确认，并提示投屏、扩展坞、供电链路与必用软件需实测",
+        "行动引导：把该型号放入候选清单，到店按具体SKU核对系统、屏幕、容量、接口与必用软件"
+      ],
+      "image_count": "2-4张",
+      "image_plan": [
+        "产品主视觉图：HUAWEI MateBook X Pro 酷睿 Ultra 微绒典藏版机身外观，来源为ima知识库/华为官网同源图片，插入第1段之后，用于建立型号身份认知（选用前须核对图片型号与本任务型号一致）",
+        "移动办公场景图：差旅/会议场景中的笔记本使用画面，来源为ima知识库/华为官网同源图片，插入第2段之后，呼应携带与现场演示场景（须核对画面型号一致）",
+        "屏幕显示示意图：文档/表格在3:2屏幕上的呈现，来源为ima知识库/华为官网同源图片，插入第3段之后，支撑屏幕比例与阅读体验说明（须核对型号与画面内容一致）"
+      ],
+      "cta_style": "引导到店按具体SKU核对配置并体验真机，或留言咨询适用场景；不承诺价格、赠品与库存。"
+    }
+  },
+  "facts": [
+    {
+      "fact_id": "F01",
+      "fact_type": "benefit",
+      "content": "【六个沟通角度】### 1. 型号身份卡\n\n**可用结论**\n\n当前本地事实对应HUAWEI MateBook X Pro酷睿Ultra微绒典藏版，而不是全部X系列；系统有Windows/Linux，Ultra 9 185H只限Windows，另有Ultra 7 155H。\n\n**支撑事实**\n\n- 完整事实名称为HUAWEI MateBook X Pro酷睿Ultra微绒典藏版。\n- 系统为Windows 11家庭版或Linux版。\n- 处理器为Ultra 9 185H（仅Windows）或Ultra 7 155H。\n- 内存16/32 GB，SSD 1/2 TB。\n- 重量约980 g，显卡为英特尔锐炫显卡。\n\n**表达边界**\n\n- 目录名“X系列”不能扩展为其他年份或普通版X Pro。\n- 系统、CPU、内存和SSD需要按销售SKU绑定。\n\n### 2. 屏幕与显示卡\n\n**可用结论**\n\n14.2英寸OLED原色屏采用3120 × 2080、3:2和最高120 Hz；Windows出厂最高60 Hz可切120 Hz，1000 nits为HDR局部峰值。\n\n**支撑事实**\n\n- 屏幕14.2英寸OLED，3:2，3120 × 2080，264 ppi，屏占比93%。\n- Windows版最高120 Hz但出厂最高60 Hz；Linux版列120 Hz。\n- Windows列Adobe R",
+      "product_model": "HUAWEI MateBook X Pro 酷睿 Ultra 微绒典藏版",
+      "source_title": "HUAWEI MateBook X Pro 酷睿 Ultra 微绒典藏版 · 卖点与限制",
+      "source_path": "P1-产品参数库/02-MateBook-Windows/MateBook X系列/卖点与限制.md",
+      "confidence": 1.0
+    },
+    {
+      "fact_id": "F02",
+      "fact_type": "feature",
+      "content": "【屏幕】尺寸\n\n14.2 英寸\n\n*屏幕采用圆角设计，按照标准矩形测量时，屏幕的对角线长度是 14.2 英寸（实际可视区域略小）。\n\n类型\n\nOLED\n\n屏占比\n\n93%\n\n屏幕比例\n\n3:2\n\n分辨率\n\n3120 × 2080，264 ppi\n\n刷新率\n\nWindows 版：120 Hz*\n\nLinux 版：120 Hz\n\n*刷新率出厂设置为最高 60 Hz，支持切换为最高 120 Hz。在不同应用界面下刷新率可能存在差异，请以实际体验为准。\n\n亮度\n\n1000 尼特\n\n*典型值，数据来源于华为实验室。HDR 功能仅限 Windows 版本产品支持，需打开 HDR 模式，并配合 HDR 内容源显⁠示，局部峰值亮度可达 1000 尼特⁠，请以实际使用情况为准。\n\n色域\n\nWindows 版：Adobe RGB / P3 / sRGB\n\nLinux 版：P3\n\n色准\n\n平均 △E < 1，支持多屏同色显示\n\n*功能仅限 Windows 版本产品支持。\n\n色深\n\nWindows 版：10.7 亿色*\n\nLinux 版：10.7 亿色**\n\n*实现 10.7 亿色彩显示效果需打开 HDR 模式，并配合支持 10 bit 的内容源显⁠示⁠。\n\n**实现 10.7 亿色彩显示效果需配合 10 bit 的内容源显⁠示⁠。\n\n对比度\n\n1000000:1\n\n可视角度\n\n178°\n\n触摸屏\n\n支持十点触控",
+      "product_model": "HUAWEI MateBook X Pro 酷睿 Ultra 微绒典藏版",
+      "source_title": "HUAWEI MateBook X Pro 酷睿 Ultra 微绒典藏版 · 产品事实",
+      "source_path": "P1-产品参数库/02-MateBook-Windows/MateBook X系列/产品事实.md",
+      "confidence": 1.0
+    },
+    {
+      "fact_id": "F03",
+      "fact_type": "benefit",
+      "content": "【合规表达示例】可以写：“如果你的首要任务与本页列出的适用任务一致，可把 HUAWEI MateBook X Pro 酷睿 Ultra 微绒典藏版 放入候选清单；下一步按具体 SKU 核对系统、屏幕、容量、接口和必用软件。”\n\n不应写：“这是同系列所有版本的统一配置”“所有软件和外设都兼容”“续航、性能或体验一定达到某个结果”“当前价格和赠品长期有效”。涉及实验室数据时，必须保留测试配置、模式、环境和页面脚注；涉及 AI 生成或辅助功能时，应提示结果需人工复核。",
+      "product_model": "HUAWEI MateBook X Pro 酷睿 Ultra 微绒典藏版",
+      "source_title": "HUAWEI MateBook X Pro 酷睿 Ultra 微绒典藏版 · 卖点与限制",
+      "source_path": "P1-产品参数库/02-MateBook-Windows/MateBook X系列/卖点与限制.md",
+      "confidence": 1.0
+    },
+    {
+      "fact_id": "F04",
+      "fact_type": "feature",
+      "content": "【概述】# HUAWEI MateBook X Pro 酷睿 Ultra 微绒典藏版 - 产品事实\n\n> 来源：华为官网公开产品页与规格页。抓取日期：2026-10-17。配置可能因销售版本而异，生成内容时必须保留限定条件并以实际销售版本为准。",
+      "product_model": "HUAWEI MateBook X Pro 酷睿 Ultra 微绒典藏版",
+      "source_title": "HUAWEI MateBook X Pro 酷睿 Ultra 微绒典藏版 · 产品事实",
+      "source_path": "P1-产品参数库/02-MateBook-Windows/MateBook X系列/产品事实.md",
+      "confidence": 1.0
+    },
+    {
+      "fact_id": "F05",
+      "fact_type": "benefit",
+      "content": "【概述】# HUAWEI MateBook X Pro 酷睿 Ultra 微绒典藏版｜卖点与限制\n\n> 内容性质：基于本库已核验的华为官方产品/规格事实重新整理，用于选型、话术和软文取证，不含第三方测评、个人体验、动态价格或库存。事实基准日：2026-10-17；发布前须重新打开官方页面并核对实际销售 SKU。",
+      "product_model": "HUAWEI MateBook X Pro 酷睿 Ultra 微绒典藏版",
+      "source_title": "HUAWEI MateBook X Pro 酷睿 Ultra 微绒典藏版 · 卖点与限制",
+      "source_path": "P1-产品参数库/02-MateBook-Windows/MateBook X系列/卖点与限制.md",
+      "confidence": 1.0
+    },
+    {
+      "fact_id": "F06",
+      "fact_type": "feature",
+      "content": "【来源】- 产品页：https://consumer.huawei.com/cn/laptops/matebook-x-pro-ultra-premium-edition/\n- 规格页：https://consumer.huawei.com/cn/laptops/matebook-x-pro-ultra-premium-edition/specs/",
+      "product_model": "HUAWEI MateBook X Pro 酷睿 Ultra 微绒典藏版",
+      "source_title": "HUAWEI MateBook X Pro 酷睿 Ultra 微绒典藏版 · 产品事实",
+      "source_path": "P1-产品参数库/02-MateBook-Windows/MateBook X系列/产品事实.md",
+      "confidence": 1.0
+    },
+    {
+      "fact_id": "F07",
+      "fact_type": "benefit",
+      "content": "【事实来源】- 产品事实：`P1-产品参数库/02-MateBook-Windows/MateBook X系列/产品事实.md`\n- 型号检索卡：`P1-产品参数库/06-型号检索卡/MateBook X系列`\n- 图片索引：`P1-产品参数库/02-MateBook-Windows/MateBook X系列/图片索引.csv`\n- 华为官方页面：https://consumer.huawei.com/cn/laptops/matebook-x-pro-ultra-premium-edition/\n- 华为官方页面：https://consumer.huawei.com/cn/laptops/matebook-x-pro-ultra-premium-edition/specs/\n\n若本页与最新官方页面冲突，以最新、适用于目标 SKU 的官方资料为准，并把本文件转入待审核。价格、库存、补贴、赠品、销量、排名、服务费用和交期不在本文件中固化。",
+      "product_model": "HUAWEI MateBook X Pro 酷睿 Ultra 微绒典藏版",
+      "source_title": "HUAWEI MateBook X Pro 酷睿 Ultra 微绒典藏版 · 卖点与限制",
+      "source_path": "P1-产品参数库/02-MateBook-Windows/MateBook X系列/卖点与限制.md",
+      "confidence": 1.0
+    },
+    {
+      "fact_id": "F08",
+      "fact_type": "feature",
+      "content": "【尺寸与重量】长度\n\n13.5 mm\n\n宽度\n\n310 mm\n\n厚度\n\n222 mm\n\n重量\n\n约 980 g\n\n*实际尺寸和重量依配置、制造工艺、测量方法的不同可能有所差异。",
+      "product_model": "HUAWEI MateBook X Pro 酷睿 Ultra 微绒典藏版",
+      "source_title": "HUAWEI MateBook X Pro 酷睿 Ultra 微绒典藏版 · 产品事实",
+      "source_path": "P1-产品参数库/02-MateBook-Windows/MateBook X系列/产品事实.md",
+      "confidence": 1.0
+    },
+    {
+      "fact_id": "F09",
+      "fact_type": "benefit",
+      "content": "【不适合直接下结论的任务】- 把Ultra 9或Windows特色功能套给Linux版。\n- 混入其他X系列年份、材质或接口。\n- 用局部HDR峰值代表日常全屏亮度。\n- 把Linux版写成支持Windows多屏同色或十点触控。\n- 必须使用独立GPU、工作站认证或长时间满载。\n- 不做项目测试便承诺剪辑、渲染或游戏结果。\n- 必须原生连接HDMI、USB-A、SD卡或3.5 mm耳机。\n- Linux用户要求雷电4或Windows隐私开关功能。\n- 选择Linux却依赖摄像头、指纹、华为分享或雷电4。\n- 企业不允许个人账号、云服务或跨设备传输。\n- 大量传统接口必须原生存在。\n- 独立显卡、Linux完整功能或未经验证专业软件是硬门槛。\n\n这里的“不适合”表示当前证据不足或存在明确取舍，不等同于产品不能完成。补齐应用厂商要求、企业策略、外设型号和实机结果后，可重新评估。",
+      "product_model": "HUAWEI MateBook X Pro 酷睿 Ultra 微绒典藏版",
+      "source_title": "HUAWEI MateBook X Pro 酷睿 Ultra 微绒典藏版 · 卖点与限制",
+      "source_path": "P1-产品参数库/02-MateBook-Windows/MateBook X系列/卖点与限制.md",
+      "confidence": 1.0
+    },
+    {
+      "fact_id": "F10",
+      "fact_type": "feature",
+      "content": "【处理器】第 1 代英特尔®酷睿™ Ultra 9 185H 处理器\n\n*仅限 Windows 版本产品搭载。\n\n第 1 代英特尔®酷睿™ Ultra 7 155H 处理器",
+      "product_model": "HUAWEI MateBook X Pro 酷睿 Ultra 微绒典藏版",
+      "source_title": "HUAWEI MateBook X Pro 酷睿 Ultra 微绒典藏版 · 产品事实",
+      "source_path": "P1-产品参数库/02-MateBook-Windows/MateBook X系列/产品事实.md",
+      "confidence": 1.0
+    }
+  ],
+  "images": [
+    {
+      "image_id": "I01",
+      "file_name": "hwpc_matebook-x-pro-ultra_多彩配色外观_01_50d0c488.jpg",
+      "url": "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/laptops/matebook-x-pro-ultra-premium-edition/images/design/huawei-matebook-x-pro-colour-02-01.jpg",
+      "local_path": "P1-产品参数库/02-MateBook-Windows/MateBook X系列/images/hwpc_matebook-x-pro-ultra_多彩配色外观_01_50d0c488.jpg",
+      "product_model": "HUAWEI MateBook X Pro 酷睿 Ultra 微绒典藏版",
+      "description": "HUAWEI MateBook X Pro 颜色",
+      "source_page": "https://consumer.huawei.com/cn/laptops/matebook-x-pro-ultra-premium-edition/",
+      "suggested_use": ""
+    },
+    {
+      "image_id": "I02",
+      "file_name": "hwpc_matebook-x-pro-ultra_多彩配色外观_02_033ceab6.jpg",
+      "url": "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/laptops/matebook-x-pro-ultra-premium-edition/new/huawei-matebook-x-pro-colour-04-01-thumb.jpg",
+      "local_path": "P1-产品参数库/02-MateBook-Windows/MateBook X系列/images/hwpc_matebook-x-pro-ultra_多彩配色外观_02_033ceab6.jpg",
+      "product_model": "HUAWEI MateBook X Pro 酷睿 Ultra 微绒典藏版",
+      "description": "HUAWEI MateBook X Pro 颜色",
+      "source_page": "https://consumer.huawei.com/cn/laptops/matebook-x-pro-ultra-premium-edition/",
+      "suggested_use": ""
+    }
+  ],
+  "content": {
+    "title": "出差带什么电脑？先看这台约980 g的移动办公候选",
+    "intro": "跑客户、赶会议、在途中改文档，移动办公的一天往往从背包重量开始。HUAWEI MateBook X Pro 酷睿 Ultra 微绒典藏版，值得放进你的候选清单逐项核对。",
+    "body": [
+      {
+        "paragraph_id": 1,
+        "content": "早上出门前，资料要装进包里，演示文件要再确认一遍，电脑还得随手能开、随时能用。对经常出差跑客户的人来说，设备的第一道门槛不是参数表，而是背在身上是否成为负担、打开后能否马上进入工作状态。HUAWEI MateBook X Pro 酷睿 Ultra 微绒典藏版正是围绕这类移动办公场景被关注的型号，但它的系统、处理器、内存与SSD存在不同销售组合，适合先建立候选认知，再按具体SKU核对。",
+        "supporting_facts": [
+          "F01",
+          "F04"
+        ],
+        "reasoning": "导语之后先建立移动办公的真实场景与型号身份，同时提前提示配置按SKU绑定，符合考虑期用户的核对习惯。"
+      },
+      {
+        "paragraph_id": 2,
+        "content": "差旅携带的第一感受来自重量。该型号重量约980 g，实际尺寸和重量依配置、制造工艺、测量方法的不同可能有所差异，选购时应以具体销售版本标注为准。对需要在通勤与客户现场之间频繁移动的职场人来说，这个量级意味着背包里的负担更可控，开合即用的节奏也更容易保持。需要提醒的是，约980 g是整机重量参考值，不同SKU的实际整套携带重量仍需到店核对。",
+        "supporting_facts": [
+          "F08",
+          "F01"
+        ],
+        "reasoning": "移动办公人群的第一决策阻力是携带负担，用约980 g建立场景代入，同时保留测量差异与SKU核对限定。"
+      },
+      {
+        "paragraph_id": 3,
+        "content": "到了客户现场，看文档、对表格、改演示是高频动作。这块14.2英寸OLED屏采用3120×2080分辨率、3:2比例，屏占比93%，264 ppi，阅读文档与表格时纵向信息更集中。刷新率方面需要留意：Windows版出厂设置为最高60 Hz，支持切换为最高120 Hz，Linux版列120 Hz，不同应用界面下可能存在差异；1000尼特为典型值，HDR功能仅限Windows版本并需打开HDR模式、配合HDR内容源，局部峰值亮度可达1000尼特。这些条件建议在真机上按实际使用场景确认。",
+        "supporting_facts": [
+          "F02",
+          "F01"
+        ],
+        "reasoning": "屏幕规格回应长时间文档处理的体验诉求，同时保留出厂刷新率、HDR峰值亮度与系统版本限定，避免把系列级参数写成固定配置。"
+      },
+      {
+        "paragraph_id": 4,
+        "content": "真正下单前，配置核对比看卖点更重要。该型号系统为Windows 11家庭版或Linux版，处理器为Ultra 9 185H（仅Windows）或Ultra 7 155H，内存16/32 GB、SSD 1/2 TB，需按销售SKU绑定确认。如果你依赖投屏演示、扩展坞、供电与线缆链路，或必用软件对系统版本有要求，建议把接口、外设与软件兼容性一起列入到店实测清单。涉及Linux版时，摄像头、指纹、华为分享或雷电4等功能的可用性也应按实际版本确认。",
+        "supporting_facts": [
+          "F01",
+          "F10",
+          "F09"
+        ],
+        "reasoning": "把用户从感兴趣推进到核对配置，明确系统与处理器组合限制，并提示移动办公链路需实测，符合考虑期决策路径。"
+      },
+      {
+        "paragraph_id": 5,
+        "content": "如果你的首要任务与移动办公场景一致，可以把HUAWEI MateBook X Pro 酷睿 Ultra 微绒典藏版放入候选清单；下一步按具体SKU核对系统、屏幕、容量、接口和必用软件。它是否适合你，取决于你实际携带的重量、常用软件与现场外设链路，而不是单一参数。",
+        "supporting_facts": [
+          "F03",
+          "F01"
+        ],
+        "reasoning": "结尾回到候选清单与SKU核对，避免绝对化结论，符合种草目标与合规表达示例。"
+      }
+    ],
+    "image_placements": [
+      {
+        "image_id": "I01",
+        "position": "after_title",
+        "caption": "HUAWEI MateBook X Pro 酷睿 Ultra 微绒典藏版机身外观",
+        "reason": "首图用于建立型号身份认知，与标题中的型号名称直接对应；选用前已核对图片型号与本任务型号一致。",
+        "source": "https://consumer.huawei.com/cn/laptops/matebook-x-pro-ultra-premium-edition/"
+      },
+      {
+        "image_id": "I02",
+        "position": "after_paragraph_2",
+        "caption": "HUAWEI MateBook X Pro 酷睿 Ultra 微绒典藏版多彩配色外观",
+        "reason": "放在重量与携带段落之后，用机身外观呼应移动办公的携带场景，帮助读者把约980 g的重量认知与产品形态联系起来；图片型号已核对一致。",
+        "source": "https://consumer.huawei.com/cn/laptops/matebook-x-pro-ultra-premium-edition/"
+      }
+    ],
+    "cta": "想把移动办公的携带与屏幕体验一次看清，欢迎到店按具体SKU核对系统、屏幕、容量、接口与必用软件，再决定是否加入候选清单；也可留言说明你的出差场景，我们按实际销售版本帮你梳理核对项。",
+    "hashtags": [],
+    "poster_lines": null
+  },
+  "fact_check": {
+    "is_verified": true,
+    "checked_claims": [
+      {
+        "claim": "HUAWEI MateBook X Pro 酷睿 Ultra 微绒典藏版",
+        "location": "title",
+        "evidence_fact_id": "F01",
+        "verdict": "已确认"
+      },
+      {
+        "claim": "约980 g",
+        "location": "title",
+        "evidence_fact_id": "F08",
+        "verdict": "已确认"
+      },
+      {
+        "claim": "移动办公候选",
+        "location": "title",
+        "evidence_fact_id": "F03",
+        "verdict": "已确认"
+      },
+      {
+        "claim": "HUAWEI MateBook X Pro 酷睿 Ultra 微绒典藏版，值得放进你的候选清单逐项核对",
+        "location": "lead",
+        "evidence_fact_id": "F03",
+        "verdict": "已确认"
+      },
+      {
+        "claim": "系统、处理器、内存与SSD存在不同销售组合",
+        "location": "paragraph_1",
+        "evidence_fact_id": "F01",
+        "verdict": "已确认"
+      },
+      {
+        "claim": "该型号重量约980 g",
+        "location": "paragraph_2",
+        "evidence_fact_id": "F08",
+        "verdict": "已确认"
+      },
+      {
+        "claim": "实际尺寸和重量依配置、制造工艺、测量方法的不同可能有所差异",
+        "location": "paragraph_2",
+        "evidence_fact_id": "F08",
+        "verdict": "已确认"
+      },
+      {
+        "claim": "14.2英寸OLED屏",
+        "location": "paragraph_3",
+        "evidence_fact_id": "F02",
+        "verdict": "已确认"
+      },
+      {
+        "claim": "3120×2080分辨率",
+        "location": "paragraph_3",
+        "evidence_fact_id": "F02",
+        "verdict": "已确认"
+      },
+      {
+        "claim": "3:2比例",
+        "location": "paragraph_3",
+        "evidence_fact_id": "F02",
+        "verdict": "已确认"
+      },
+      {
+        "claim": "屏占比93%",
+        "location": "paragraph_3",
+        "evidence_fact_id": "F02",
+        "verdict": "已确认"
+      },
+      {
+        "claim": "264 ppi",
+        "location": "paragraph_3",
+        "evidence_fact_id": "F02",
+        "verdict": "已确认"
+      },
+      {
+        "claim": "Windows版出厂设置为最高60 Hz，支持切换为最高120 Hz",
+        "location": "paragraph_3",
+        "evidence_fact_id": "F02",
+        "verdict": "已确认"
+      },
+      {
+        "claim": "Linux版列120 Hz",
+        "location": "paragraph_3",
+        "evidence_fact_id": "F02",
+        "verdict": "已确认"
+      },
+      {
+        "claim": "1000尼特为典型值",
+        "location": "paragraph_3",
+        "evidence_fact_id": "F02",
+        "verdict": "已确认"
+      },
+      {
+        "claim": "HDR功能仅限Windows版本并需打开HDR模式、配合HDR内容源，局部峰值亮度可达1000尼特",
+        "location": "paragraph_3",
+        "evidence_fact_id": "F02",
+        "verdict": "已确认"
+      },
+      {
+        "claim": "系统为Windows 11家庭版或Linux版",
+        "location": "paragraph_4",
+        "evidence_fact_id": "F01",
+        "verdict": "已确认"
+      },
+      {
+        "claim": "处理器为Ultra 9 185H（仅Windows）或Ultra 7 155H",
+        "location": "paragraph_4",
+        "evidence_fact_id": "F01",
+        "verdict": "已确认"
+      },
+      {
+        "claim": "内存16/32 GB、SSD 1/2 TB",
+        "location": "paragraph_4",
+        "evidence_fact_id": "F01",
+        "verdict": "已确认"
+      },
+      {
+        "claim": "需按销售SKU绑定确认",
+        "location": "paragraph_4",
+        "evidence_fact_id": "F01",
+        "verdict": "已确认"
+      },
+      {
+        "claim": "涉及Linux版时，摄像头、指纹、华为分享或雷电4等功能的可用性也应按实际版本确认",
+        "location": "paragraph_4",
+        "evidence_fact_id": "F09",
+        "verdict": "已确认"
+      },
+      {
+        "claim": "把HUAWEI MateBook X Pro 酷睿 Ultra 微绒典藏版放入候选清单；下一步按具体SKU核对系统、屏幕、容量、接口和必用软件",
+        "location": "paragraph_5",
+        "evidence_fact_id": "F03",
+        "verdict": "已确认"
+      },
+      {
+        "claim": "到店按具体SKU核对系统、屏幕、容量、接口与必用软件",
+        "location": "action_guide",
+        "evidence_fact_id": "F03",
+        "verdict": "已确认"
+      }
+    ],
+    "violations": [],
+    "unverified_items": [],
+    "confidence_score": 1.0
+  },
+  "image_check": {
+    "is_consistent": true,
+    "violations": [],
+    "checked_images": [
+      {
+        "image_id": "I01",
+        "file_name": "hwpc_matebook-x-pro-ultra_多彩配色外观_01_50d0c488.jpg",
+        "model": "HUAWEI MateBook X Pro 酷睿 Ultra 微绒典藏版",
+        "position": "after_title"
+      },
+      {
+        "image_id": "I02",
+        "file_name": "hwpc_matebook-x-pro-ultra_多彩配色外观_02_033ceab6.jpg",
+        "model": "HUAWEI MateBook X Pro 酷睿 Ultra 微绒典藏版",
+        "position": "after_paragraph_2"
+      }
+    ]
+  },
+  "compliance": {
+    "is_compliant": false,
+    "violations": [
+      {
+        "rule_category": "absolute_claims",
+        "location": "paragraph_1",
+        "matched_text": "第一",
+        "issue": "绝对化用语：命中「第一」",
+        "severity": "critical",
+        "action": "must_remove",
+        "correction_suggestion": "删除或改为可验证的客观表述"
+      },
+      {
+        "rule_category": "absolute_claims",
+        "location": "paragraph_2",
+        "matched_text": "第一",
+        "issue": "绝对化用语：命中「第一」",
+        "severity": "critical",
+        "action": "must_remove",
+        "correction_suggestion": "删除或改为可验证的客观表述"
+      }
+    ],
+    "risk_level": "high",
+    "approved_for_publication": false
+  },
+  "knowledge_source": "ima+local",
+  "trace": {
+    "task_id": "f4fdcd1a",
+    "steps": [
+      {
+        "step": "场景解析",
+        "status": "ok",
+        "detail": "型号归一化为「HUAWEI MateBook X Pro 酷睿 Ultra 微绒典藏版」；人群=职场人士；场景=移动办公；平台=公众号",
+        "duration_ms": 0,
+        "data_summary": {}
+      },
+      {
+        "step": "平台策略",
+        "status": "ok",
+        "detail": "切入点：以“移动办公的一天”为叙事主线：从出发前的资料准备、途中离线处理，到客户现场投屏演示与资料回传，把 MateBook X Pro 酷睿 Ultra 微绒典藏版的便携与屏幕体验放进真实工作链路，同时明确提示配置需按具体SKU核对，帮助考虑期用户形成候选清单。",
+        "duration_ms": 8636,
+        "data_summary": {}
+      },
+      {
+        "step": "资料与图片检索",
+        "status": "ok",
+        "detail": "来源：本地知识库兜底（与ima同源资料）；事实点10条；图片2张",
+        "duration_ms": 219,
+        "data_summary": {
+          "facts": 10,
+          "images": 2
+        }
+      },
+      {
+        "step": "事实点提取",
+        "status": "ok",
+        "detail": "已建立事实点ID（F编号）与来源映射，供生成引用与核验",
+        "duration_ms": 0,
+        "data_summary": {
+          "facts": [
+            "F01",
+            "F02",
+            "F03",
+            "F04",
+            "F05",
+            "F06",
+            "F07",
+            "F08",
+            "F09",
+            "F10"
+          ]
+        }
+      },
+      {
+        "step": "图文软文生成",
+        "status": "ok",
+        "detail": "标题：出差带什么电脑？先看这台约980 g的移动办公候选",
+        "duration_ms": 6967,
+        "data_summary": {
+          "paragraphs": 5,
+          "images_planned": 2
+        }
+      },
+      {
+        "step": "图片型号核验",
+        "status": "ok",
+        "detail": "核验2张；问题0项",
+        "duration_ms": 0,
+        "data_summary": {}
+      },
+      {
+        "step": "事实核验",
+        "status": "ok",
+        "detail": "置信度1.00；无依据/待确认0项",
+        "duration_ms": 3479,
+        "data_summary": {}
+      },
+      {
+        "step": "合规检查",
+        "status": "warn",
+        "detail": "风险等级：high；命中2项",
+        "duration_ms": 706,
+        "data_summary": {}
+      },
+      {
+        "step": "导出",
+        "status": "ok",
+        "detail": "已生成统一输出格式Markdown与JSON",
+        "duration_ms": 0,
+        "data_summary": {
+          "knowledge_source": "本地知识库兜底（与ima同源资料）"
+        }
+      }
+    ],
+    "started_at": "2026-10-18T17:04:51.941677"
+  },
+  "created_at": "2026-10-18T17:05:11.951073"
+}

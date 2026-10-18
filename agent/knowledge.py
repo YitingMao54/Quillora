@@ -15,7 +15,7 @@ from .models import Fact, ImageAsset
 
 SOURCE_LABELS = {
     "ima": "ima在线知识库",
-    "local": "本地P1-P8数据",
+    "local": "本地同源知识库（P1-P8）",
     "enrich": "增强库（官网爬取）",
 }
 

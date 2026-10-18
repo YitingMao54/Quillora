@@ -57,7 +57,8 @@ class EnrichStore:
             "pages_ok": sum(1 for p in entry.get("crawled", {}).get("pages", []) if p.get("ok")),
             "pages_total": len(entry.get("crawled", {}).get("pages", [])),
             "updated_at": entry["updated_at"],
-            "path": str(target),
+            # 存相对 data_dir 的路径：产物可随仓库迁移，也不泄露本机绝对目录
+            "path": f"{slug}/product.json",
         }
         self.index_path.write_text(json.dumps(index, ensure_ascii=False, indent=2), encoding="utf-8")
         return target
@@ -67,8 +68,11 @@ class EnrichStore:
         info = index.get("products", {}).get(model)
         if not info:
             return None
+        path = Path(info.get("path", ""))
+        if not path.is_absolute():
+            path = self.data_dir / path
         try:
-            return json.loads(Path(info["path"]).read_text(encoding="utf-8"))
+            return json.loads(path.read_text(encoding="utf-8"))
         except Exception:
             return None
 

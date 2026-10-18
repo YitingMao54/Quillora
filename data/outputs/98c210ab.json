@@ -1,0 +1,560 @@
+{
+  "task": {
+    "task_id": "98c210ab",
+    "product": "HUAWEI MateBook Pro",
+    "target_audience": "职场人士",
+    "scenario": "移动办公",
+    "platform": "公众号",
+    "content_goal": "种草",
+    "special_requirements": [],
+    "created_at": "2026-10-18T17:08:10.864673"
+  },
+  "strategy": {
+    "audience_analysis": {
+      "profile": "需要高频通勤与差旅的职场人士：销售、咨询、项目管理者等，经常在客户现场、会议室、交通工具上完成文档处理、资料查阅、投屏演示与资料回传，外设以USB-C为主或可接受扩展坞，工作流中涉及鸿蒙设备协同。",
+      "pain_points": [
+        "通勤与差旅中背负设备负担重，对整机重量敏感，希望接近1 kg的轻薄机身",
+        "客户现场与复杂光照环境下屏幕反射影响阅读与演示，需要按配置确认柔光版",
+        "长文档、多任务与资料流转频繁，需要高分辨率3:2画布、触控浏览与鸿蒙多设备协同",
+        "接口以USB-C为主，连接HDMI、USB-A或3.5 mm耳机需转接，担心现场扩展不便",
+        "必用软件与外设是否兼容需自行验证，担心把‘具备接口/功能’误当成工作流已兼容"
+      ],
+      "buying_stage": "考虑期",
+      "decision_factors": [
+        "整机重量与便携性（接近1 kg机身）",
+        "屏幕配置：普通屏与柔光版需先区分并核对SKU",
+        "高分辨率长文档阅读与3:2画布、触控浏览体验",
+        "鸿蒙办公、多任务与已确认支持的AI辅助任务",
+        "内存与存储配置（24/32 GB内存、最多1 TB本地存储）",
+        "接口与扩展方案（USB-C外设或随附OTG/额外扩展坞）",
+        "物理隐私入口及按系统版本核验功能"
+      ]
+    },
+    "content_strategy": {
+      "angle": "从‘移动办公的一天’切入：把出发前准备、途中离线、客户现场演示、资料回传串成一条链，说明HUAWEI MateBook Pro在哪些环节能进入候选清单、哪些环节需要先核对SKU与验证软件外设，帮助职场人士做理性种草而非冲动下单。",
+      "priority_features": [
+        "接近1 kg的轻薄机身，适合高频通勤、差旅与对重量敏感的用户（依据：F01）",
+        "高分辨率长文档、触控浏览与3:2画布的移动办公体验；需先区分普通屏与柔光版并核对配置（依据：F01）",
+        "鸿蒙办公、多任务与已确认支持的AI辅助任务，以及鸿蒙设备生态中的文件、输入和屏幕协同（依据：F01）"
+      ],
+      "selling_order_reason": "移动办公人群的第一决策门槛是‘愿不愿意每天背着走’，因此先讲重量与便携建立候选资格；其次才是现场最影响效率的屏幕阅读与演示体验，并同步提示柔光版需核对配置；最后讲鸿蒙协同与多任务，把设备放进用户已有的工作流中，同时用‘需验证’的边界表达降低误购风险，符合种草目标下的理性决策路径。",
+      "tone": "专业中带亲和，像一位熟悉差旅场景的顾问在给建议，讲场景与取舍，不堆参数。",
+      "avoid": [
+        "绝对化用语：最、第一、唯一、完美、极致、顶级、首选等",
+        "虚假承诺：保证、百分百、永不、绝对、必然等",
+        "无依据对比与竞品贬低：秒杀、碾压、吊打、虚构对比测试",
+        "价格误导：虚构原价/折扣/补贴/返现/库存紧张/限时，‘仅需’‘立省’不带依据",
+        "虚构用户评价、销量、奖项、软件测试结果",
+        "把系列级‘最高/可选’参数写成某一销售配置的确定参数",
+        "把HUAWEI MateBook Pro与Windows MateBook X Pro或其他年份Pro机型混为一款",
+        "未确认版本就承诺柔光屏，或用峰值亮度代替日常全屏亮度、承诺医疗护眼效果",
+        "把实验室性能释放转成所有任务的固定持续功耗",
+        "宣称所有软件和外设都兼容、续航性能体验一定达到某个结果"
+      ]
+    },
+    "platform_adaptation": {
+      "title_style": "公众号标题15-30字，场景化+人群指向，避免绝对化，可用‘移动办公的一天’‘先核对再决定’等理性表达。",
+      "structure": "导语1-2句点出移动办公痛点；正文3-5段，每段一个小主题并承接；结尾行动引导到店体验与核对SKU；配图2-4张。",
+      "paragraph_plan": [
+        "段落1：移动办公的真实负担——通勤差旅中对重量的敏感，引出接近1 kg机身可作为候选理由（依据F01），并提示仍需按具体SKU核对",
+        "段落2：客户现场与长文档——高分辨率长文档、触控浏览与3:2画布的价值；先区分普通屏与柔光版并核对配置，复杂光照下减少反射需确认柔光版（依据F01）",
+        "段落3：工作流衔接——鸿蒙办公、多任务与已确认支持的AI辅助任务，文件、输入和屏幕协同；同时说明必用软件、账号、网络与外设需自行验证（依据F01、F02）",
+        "段落4：接口与取舍——外设以USB-C为主或可接受随附OTG/额外扩展坞；若离不开原生HDMI、USB-A、3.5 mm且不愿转接，需重新评估（依据F01、F02）",
+        "段落5：把选择权交回用户——按具体SKU核对系统、屏幕、容量、接口和必用软件，再决定是否放入候选清单（依据F03）"
+      ],
+      "image_count": "2-4张",
+      "image_plan": [
+        "配图1方向：HUAWEI MateBook Pro整机轻薄形态展示图，用于段落1之后，帮助读者建立‘接近1 kg机身’的直观印象；须核对图片型号与任务型号一致",
+        "配图2方向：屏幕显示长文档/3:2画布办公场景图，用于段落2之后，呼应高分辨率长文档与触控浏览；须核对图片型号，柔光版图片仅在确认版本时使用",
+        "配图3方向：USB-C接口与扩展坞/外设连接示意或场景图，用于段落4之后，说明接口取舍与扩展方案；须核对图片型号与接口画面一致"
+      ],
+      "cta_style": "引导到店体验与咨询：建议读者带着自己的必用软件、文件与外设到门店实机核对SKU与接口，再决定是否放入候选清单；不承诺价格、赠品与库存。"
+    }
+  },
+  "facts": [
+    {
+      "fact_id": "F01",
+      "fact_type": "feature",
+      "content": "【概述】# HUAWEI MateBook Pro - 产品事实\n\n> 来源：华为官网公开产品页与规格页。抓取日期：2026-10-17。配置可能因销售版本而异，生成内容时必须保留限定条件并以实际销售版本为准。",
+      "product_model": "HUAWEI MateBook Pro",
+      "source_title": "HUAWEI MateBook Pro · 产品事实",
+      "source_path": "P1-产品参数库/01-鸿蒙电脑/HUAWEI MateBook Pro/产品事实.md",
+      "confidence": 1.0
+    },
+    {
+      "fact_id": "F02",
+      "fact_type": "feature",
+      "content": "【来源】- 产品页：https://consumer.huawei.com/cn/harmonyos-computer/matebook-pro/\n- 规格页：https://consumer.huawei.com/cn/harmonyos-computer/matebook-pro/specs/",
+      "product_model": "HUAWEI MateBook Pro",
+      "source_title": "HUAWEI MateBook Pro · 产品事实",
+      "source_path": "P1-产品参数库/01-鸿蒙电脑/HUAWEI MateBook Pro/产品事实.md",
+      "confidence": 1.0
+    },
+    {
+      "fact_id": "F03",
+      "fact_type": "feature",
+      "content": "【屏幕】尺寸\n\n14.2 英寸\n\n类型\n\nOLED 云晰柔光屏\n\n*仅 HUAWEI MateBook Pro 柔光版支持云晰柔光屏。云晰柔光屏是华为对屏幕设计的定义，屏幕形成漫反射，减轻灯光、阳光等光照的影响，让屏幕观感更舒适；不同使用条件、环境下体验可能略有差异，请以实际为⁠准。\n\n屏占比\n\n93%\n\n屏幕比例\n\n3:2\n\n分辨率\n\n3120（长）× 2080（宽）\n\n亮度\n\n典型亮度：600 nits\n\n峰值亮度：1000 nits\n\n色域\n\n100% sRGB色域（典型值）、P3 广色域（典型值）\n\n对比度\n\n1000000:1（典型值）\n\n可视角度\n\n178°（典型值）\n\n触摸屏\n\n多点触控触摸屏，最多支持 10 点触控\n\n*屏幕亮度、色域、对比度、可视角度等数据为典型值。",
+      "product_model": "HUAWEI MateBook Pro",
+      "source_title": "HUAWEI MateBook Pro · 产品事实",
+      "source_path": "P1-产品参数库/01-鸿蒙电脑/HUAWEI MateBook Pro/产品事实.md",
+      "confidence": 1.0
+    },
+    {
+      "fact_id": "F04",
+      "fact_type": "feature",
+      "content": "【包装清单】HUAWEI MateBook Pro × 1\n\n华为超级快充电源适配器（Max 140 W）× 1\n\n电源适配器线（USB-C） × 1\n\nHUAWEI USB-C OTG 转接线 × 1\n\n快速指南 × 1\n\nType-C 数字耳机 × 1\n\n抛光布 × 1（仅柔光版）\n\n即将离开consumer.huawei.com\n\n您即将跳转至第三方页面，华为无法控制，也无法对该页面内容负责。\n\n继续访问\n\n取消",
+      "product_model": "HUAWEI MateBook Pro",
+      "source_title": "HUAWEI MateBook Pro · 产品事实",
+      "source_path": "P1-产品参数库/01-鸿蒙电脑/HUAWEI MateBook Pro/产品事实.md",
+      "confidence": 1.0
+    },
+    {
+      "fact_id": "F05",
+      "fact_type": "benefit",
+      "content": "【概述】# HUAWEI MateBook Pro｜卖点与限制\n\n> 内容性质：基于本库已核验的华为官方产品/规格事实重新整理，用于选型、话术和软文取证，不含第三方测评、个人体验、动态价格或库存。事实基准日：2026-10-17；发布前须重新打开官方页面并核对实际销售 SKU。",
+      "product_model": "HUAWEI MateBook Pro",
+      "source_title": "HUAWEI MateBook Pro · 卖点与限制",
+      "source_path": "P1-产品参数库/01-鸿蒙电脑/HUAWEI MateBook Pro/卖点与限制.md",
+      "confidence": 1.0
+    },
+    {
+      "fact_id": "F06",
+      "fact_type": "benefit",
+      "content": "【六个沟通角度】### 1. 型号身份卡\n\n**可用结论**\n\nHUAWEI MateBook Pro 是约 970 g 的 HarmonyOS 6.1 轻薄本，采用麒麟 X90 Plus，并提供 24/32 GB 内存与 512 GB/1 TB 存储组合。\n\n**支撑事实**\n\n- 官方名称为 HUAWEI MateBook Pro。\n- 操作系统为 HarmonyOS 6.1，处理器为麒麟 X90 Plus。\n- 内存为 24 GB / 32 GB，SSD 为 512 GB / 1 TB NVMe PCIe。\n- 机身官方重量 970 g、厚度 13.5 mm。\n- 屏幕为14.2英寸OLED；云晰柔光屏只属于柔光版。\n\n**表达边界**\n\n- 实际尺寸和重量会随配置、制造与测量方法变化。\n- 柔光屏、内存和存储档位须与实际销售SKU逐项对应。\n\n### 2. 屏幕与显示卡\n\n**可用结论**\n\n14.2英寸3:2 OLED触控屏采用3120 × 2080分辨率；典型600 nits与峰值1000 nits不是同一使用条件，柔光能力也仅限指定版本。\n\n**支撑事实**\n\n- 屏幕14.2英寸，比例3:2，分辨率3120 × 2080，屏占比93%。\n- 典型亮度600 nits，峰值亮度1000 nits。\n- 支持100% sRGB典型值与P3广色域典型值。\n- 对比度1000000:1典型",
+      "product_model": "HUAWEI MateBook Pro",
+      "source_title": "HUAWEI MateBook Pro · 卖点与限制",
+      "source_path": "P1-产品参数库/01-鸿蒙电脑/HUAWEI MateBook Pro/卖点与限制.md",
+      "confidence": 1.0
+    },
+    {
+      "fact_id": "F07",
+      "fact_type": "benefit",
+      "content": "【适合进入候选清单的任务】- 在鸿蒙轻薄本中寻找接近1 kg机身的用户。\n- 需要先区分普通屏与柔光版并核对配置。\n- 高分辨率长文档、触控浏览和需要3:2画布的移动办公。\n- 确认柔光版后，在复杂光照中减少反射影响的工作。\n- 鸿蒙办公、多任务和已确认支持的AI辅助任务。\n- 需要24/32 GB内存和最多1 TB本地存储的轻薄工作流。\n- 高频通勤、差旅与对整机重量敏感的用户。\n- 外设主要为USB-C，或可接受随附OTG/额外扩展坞的工作。\n- 希望在鸿蒙设备生态中完成文件、输入和屏幕协同。\n- 重视物理隐私入口并愿意按系统版本核验功能。\n- 通勤、差旅、长文档与鸿蒙设备协同已验证的用户。\n- 愿意采用USB-C外设或扩展坞的轻薄本用户。\n\n上述任务仍需用用户自己的软件、文件、账号、网络和外设验证。产品规格说明“具备某接口或功能”不等于目标工作流已经兼容。",
+      "product_model": "HUAWEI MateBook Pro",
+      "source_title": "HUAWEI MateBook Pro · 卖点与限制",
+      "source_path": "P1-产品参数库/01-鸿蒙电脑/HUAWEI MateBook Pro/卖点与限制.md",
+      "confidence": 1.0
+    },
+    {
+      "fact_id": "F08",
+      "fact_type": "benefit",
+      "content": "【不适合直接下结论的任务】- 把它与 Windows MateBook X Pro 或其他年份Pro机型混为一款。\n- 在未验证应用前用于必须运行Windows专用程序的项目。\n- 未确认版本就承诺柔光屏。\n- 用峰值亮度代替日常全屏亮度，或承诺医疗护眼效果。\n- 必须依赖专用GPU、Windows插件或未经验证的专业软件。\n- 把实验室性能释放转成所有任务的固定持续功耗。\n- 必须不经转接连接HDMI、USB-A或3.5 mm耳机。\n- 未经验证同时连接多屏、高速存储和供电。\n- 企业策略不允许个人账号、跨设备传输或云服务。\n- 必须运行未经验证的Windows桌面软件和驱动。\n- 离不开原生HDMI、USB-A、3.5 mm接口且不愿转接。\n- 依赖Windows行业应用、专用GPU或未经验证的企业环境。\n\n这里的“不适合”表示当前证据不足或存在明确取舍，不等同于产品不能完成。补齐应用厂商要求、企业策略、外设型号和实机结果后，可重新评估。",
+      "product_model": "HUAWEI MateBook Pro",
+      "source_title": "HUAWEI MateBook Pro · 卖点与限制",
+      "source_path": "P1-产品参数库/01-鸿蒙电脑/HUAWEI MateBook Pro/卖点与限制.md",
+      "confidence": 1.0
+    },
+    {
+      "fact_id": "F09",
+      "fact_type": "benefit",
+      "content": "【合规表达示例】可以写：“如果你的首要任务与本页列出的适用任务一致，可把 HUAWEI MateBook Pro 放入候选清单；下一步按具体 SKU 核对系统、屏幕、容量、接口和必用软件。”\n\n不应写：“这是同系列所有版本的统一配置”“所有软件和外设都兼容”“续航、性能或体验一定达到某个结果”“当前价格和赠品长期有效”。涉及实验室数据时，必须保留测试配置、模式、环境和页面脚注；涉及 AI 生成或辅助功能时，应提示结果需人工复核。",
+      "product_model": "HUAWEI MateBook Pro",
+      "source_title": "HUAWEI MateBook Pro · 卖点与限制",
+      "source_path": "P1-产品参数库/01-鸿蒙电脑/HUAWEI MateBook Pro/卖点与限制.md",
+      "confidence": 1.0
+    },
+    {
+      "fact_id": "F10",
+      "fact_type": "benefit",
+      "content": "【事实来源】- 产品事实：`P1-产品参数库/01-鸿蒙电脑/HUAWEI MateBook Pro/产品事实.md`\n- 型号检索卡：`P1-产品参数库/06-型号检索卡/HUAWEI MateBook Pro`\n- 图片索引：`P1-产品参数库/01-鸿蒙电脑/HUAWEI MateBook Pro/图片索引.csv`\n- 华为官方页面：https://consumer.huawei.com/cn/harmonyos-computer/matebook-pro/\n- 华为官方页面：https://consumer.huawei.com/cn/harmonyos-computer/matebook-pro/specs/\n\n若本页与最新官方页面冲突，以最新、适用于目标 SKU 的官方资料为准，并把本文件转入待审核。价格、库存、补贴、赠品、销量、排名、服务费用和交期不在本文件中固化。",
+      "product_model": "HUAWEI MateBook Pro",
+      "source_title": "HUAWEI MateBook Pro · 卖点与限制",
+      "source_path": "P1-产品参数库/01-鸿蒙电脑/HUAWEI MateBook Pro/卖点与限制.md",
+      "confidence": 1.0
+    }
+  ],
+  "images": [
+    {
+      "image_id": "I01",
+      "file_name": "hwpc_matebook-pro-harmonyos_多彩配色外观_04_305ae9ec.jpg",
+      "url": "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/harmonyos-computer/matebook-pro/new/assets/pc/huawei-matebook-pro-design-1-blur.jpg",
+      "local_path": "P1-产品参数库/01-鸿蒙电脑/HUAWEI MateBook Pro/images/hwpc_matebook-pro-harmonyos_多彩配色外观_04_305ae9ec.jpg",
+      "product_model": "HUAWEI MateBook Pro",
+      "description": "HUAWEI MateBook Pro 创拍图，展示了颜色和设计",
+      "source_page": "https://consumer.huawei.com/cn/harmonyos-computer/matebook-pro/",
+      "suggested_use": ""
+    },
+    {
+      "image_id": "I02",
+      "file_name": "hwpc_matebook-pro-harmonyos_多彩配色外观_05_46d10ff8.jpg",
+      "url": "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/harmonyos-computer/matebook-pro/new/assets/pc/huawei-matebook-pro-design-2-blur.jpg",
+      "local_path": "P1-产品参数库/01-鸿蒙电脑/HUAWEI MateBook Pro/images/hwpc_matebook-pro-harmonyos_多彩配色外观_05_46d10ff8.jpg",
+      "product_model": "HUAWEI MateBook Pro",
+      "description": "HUAWEI MateBook Pro 创拍图，展示了颜色和设计",
+      "source_page": "https://consumer.huawei.com/cn/harmonyos-computer/matebook-pro/",
+      "suggested_use": ""
+    },
+    {
+      "image_id": "I03",
+      "file_name": "hwpc_matebook-pro-harmonyos_多彩配色外观_06_f74ed58c.jpg",
+      "url": "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/harmonyos-computer/matebook-pro/new/assets/pc/huawei-matebook-pro-design-3-blur.jpg",
+      "local_path": "P1-产品参数库/01-鸿蒙电脑/HUAWEI MateBook Pro/images/hwpc_matebook-pro-harmonyos_多彩配色外观_06_f74ed58c.jpg",
+      "product_model": "HUAWEI MateBook Pro",
+      "description": "HUAWEI MateBook Pro 创拍图，展示了颜色和设计",
+      "source_page": "https://consumer.huawei.com/cn/harmonyos-computer/matebook-pro/",
+      "suggested_use": ""
+    },
+    {
+      "image_id": "I04",
+      "file_name": "hwpc_matebook-pro-harmonyos_多彩配色外观_07_5f7155ab.jpg",
+      "url": "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/harmonyos-computer/matebook-pro/new/assets/pc/huawei-matebook-pro-design-4-blur.jpg",
+      "local_path": "P1-产品参数库/01-鸿蒙电脑/HUAWEI MateBook Pro/images/hwpc_matebook-pro-harmonyos_多彩配色外观_07_5f7155ab.jpg",
+      "product_model": "HUAWEI MateBook Pro",
+      "description": "HUAWEI MateBook Pro 创拍图，展示了颜色和设计",
+      "source_page": "https://consumer.huawei.com/cn/harmonyos-computer/matebook-pro/",
+      "suggested_use": ""
+    },
+    {
+      "image_id": "I05",
+      "file_name": "hwpc_matebook-pro-harmonyos_多彩配色外观_08_1c34dfdb.jpg",
+      "url": "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/harmonyos-computer/matebook-pro/new/assets/pc/huawei-matebook-pro-design-4.jpg",
+      "local_path": "P1-产品参数库/01-鸿蒙电脑/HUAWEI MateBook Pro/images/hwpc_matebook-pro-harmonyos_多彩配色外观_08_1c34dfdb.jpg",
+      "product_model": "HUAWEI MateBook Pro",
+      "description": "HUAWEI MateBook Pro 创拍图，展示了颜色和设计",
+      "source_page": "https://consumer.huawei.com/cn/harmonyos-computer/matebook-pro/",
+      "suggested_use": ""
+    },
+    {
+      "image_id": "I06",
+      "file_name": "hwpc_matebook-pro-harmonyos_轻薄精致机身_03_3ddf67b9.jpg",
+      "url": "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/harmonyos-computer/matebook-pro/new/assets/pc/huawei-matebook-pro-lightweight-blur.jpg",
+      "local_path": "P1-产品参数库/01-鸿蒙电脑/HUAWEI MateBook Pro/images/hwpc_matebook-pro-harmonyos_轻薄精致机身_03_3ddf67b9.jpg",
+      "product_model": "HUAWEI MateBook Pro",
+      "description": "一名女性手持 HUAWEI MateBook Pro 在街上漫步，展示了轻薄",
+      "source_page": "https://consumer.huawei.com/cn/harmonyos-computer/matebook-pro/",
+      "suggested_use": ""
+    },
+    {
+      "image_id": "I07",
+      "file_name": "hwpc_matebook-pro-harmonyos_精致产品细节_02_5b5cda90.jpg",
+      "url": "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/harmonyos-computer/matebook-pro/assets/imgs/pc/huawei-matebook-pro-card-interconnect-blur.jpg",
+      "local_path": "P1-产品参数库/01-鸿蒙电脑/HUAWEI MateBook Pro/images/hwpc_matebook-pro-harmonyos_精致产品细节_02_5b5cda90.jpg",
+      "product_model": "HUAWEI MateBook Pro",
+      "description": "精致产品细节",
+      "source_page": "https://consumer.huawei.com/cn/harmonyos-computer/matebook-pro/",
+      "suggested_use": ""
+    },
+    {
+      "image_id": "I08",
+      "file_name": "hwpc_matebook-pro-harmonyos_高清护眼屏幕_01_7da16b65.jpg",
+      "url": "https://consumer.huawei.com/content/dam/huawei-cbg-site/cn/mkt/pdp/harmonyos-computer/matebook-pro/assets/imgs/pc/huawei-matebook-pro-card-display-blur.jpg",
+      "local_path": "P1-产品参数库/01-鸿蒙电脑/HUAWEI MateBook Pro/images/hwpc_matebook-pro-harmonyos_高清护眼屏幕_01_7da16b65.jpg",
+      "product_model": "HUAWEI MateBook Pro",
+      "description": "",
+      "source_page": "https://consumer.huawei.com/cn/harmonyos-computer/matebook-pro/",
+      "suggested_use": ""
+    }
+  ],
+  "content": {
+    "title": "移动办公的一天：通勤、演示、回传，这台轻薄本先核对再决定",
+    "intro": "经常在客户现场、会议室和交通工具上办公的人，选本子的第一道门槛往往不是参数，而是“愿不愿意每天背着走”。把一天串起来看，HUAWEI MateBook Pro 能进入候选清单的环节和需要先核对的环节，其实很清楚。",
+    "body": [
+      {
+        "paragraph_id": 1,
+        "content": "对销售、咨询和项目管理者来说，设备是每天要背出门的工具。通勤换乘、赶高铁、在客户楼下等电梯，重量带来的负担会反复出现。HUAWEI MateBook Pro 官方机身重量 970 g、厚度 13.5 mm，属于接近 1 kg 的轻薄机身，对重量敏感的移动办公人群，可以把它作为候选之一。需要说明的是，实际尺寸和重量会随配置、制造与测量方法变化，具体以实际销售 SKU 标注为准。",
+        "supporting_facts": [
+          "F06",
+          "F07"
+        ],
+        "reasoning": "先回应移动办公人群的第一决策门槛——便携，建立候选资格，同时保留重量随配置变化的限定条件。"
+      },
+      {
+        "paragraph_id": 2,
+        "content": "到了客户现场，真正影响效率的是屏幕。14.2 英寸 3:2 画布配合 3120 × 2080 分辨率，长文档、方案和表格能在一屏里看到更多内容；多点触控也让翻阅资料、标注重点更直接。如果常在复杂光照下阅读或演示，需要先区分普通屏与柔光版：云晰柔光屏仅 HUAWEI MateBook Pro 柔光版支持，屏幕形成漫反射，减轻灯光、阳光等光照的影响，不同使用条件和环境下体验可能略有差异。典型亮度 600 nits 与峰值亮度 1000 nits 不是同一使用条件，选购时按具体 SKU 核对屏幕版本。",
+        "supporting_facts": [
+          "F03",
+          "F06",
+          "F07"
+        ],
+        "reasoning": "屏幕是现场阅读与演示的核心体验，先讲长文档与触控价值，再明确柔光版需核对配置，避免把系列能力写成某一配置的确定参数。"
+      },
+      {
+        "paragraph_id": 3,
+        "content": "一天里的资料往往在多个设备之间流转。HUAWEI MateBook Pro 运行 HarmonyOS 6.1，可在鸿蒙设备生态中完成文件、输入和屏幕协同，也覆盖鸿蒙办公、多任务和已确认支持的 AI 辅助任务；内存提供 24 GB / 32 GB，存储为 512 GB / 1 TB，适合需要同时开多个文档与资料窗口的轻薄工作流。不过，产品规格说明“具备某功能”不等于目标工作流已经兼容，必用软件、账号、网络和外设仍需用自己的实际环境验证；涉及 AI 生成或辅助功能时，结果也需人工复核。",
+        "supporting_facts": [
+          "F06",
+          "F07",
+          "F09"
+        ],
+        "reasoning": "把设备放进用户已有的鸿蒙工作流中讲协同与多任务，同时用“需自行验证”的边界表达降低误购风险。"
+      },
+      {
+        "paragraph_id": 4,
+        "content": "接口是移动办公里容易被忽略的取舍。包装清单包含 USB-C 电源适配器线与 HUAWEI USB-C OTG 转接线，外设以 USB-C 为主、或可接受随附 OTG 与额外扩展坞的用户，衔接会更顺。但如果工作流离不开原生 HDMI、USB-A 或 3.5 mm 耳机接口且不愿转接，就需要重新评估是否合适；同时连接多屏、高速存储和供电的组合，也建议先实机验证。",
+        "supporting_facts": [
+          "F04",
+          "F07",
+          "F08"
+        ],
+        "reasoning": "接口决定现场扩展是否顺手，讲清随附转接与原生接口的取舍，帮助读者判断自身工作流是否匹配。"
+      },
+      {
+        "paragraph_id": 5,
+        "content": "把一天串下来，HUAWEI MateBook Pro 更适合这样的移动办公者：看重接近 1 kg 的机身、需要高分辨率长文档与 3:2 画布、外设以 USB-C 为主，并希望在鸿蒙生态里完成协同。下一步不是急着下单，而是按具体 SKU 核对系统、屏幕版本、内存与存储容量、接口和必用软件，再决定是否把它放进候选清单。",
+        "supporting_facts": [
+          "F07",
+          "F09"
+        ],
+        "reasoning": "收束全文，把选择权交回用户，用核对清单替代冲动决策，符合考虑期的理性种草目标。"
+      }
+    ],
+    "image_placements": [
+      {
+        "image_id": "I06",
+        "position": "after_paragraph_1",
+        "caption": "HUAWEI MateBook Pro 轻薄机身，适合高频通勤与差旅携带",
+        "reason": "段落1讲通勤与差旅中的重量负担，用展示轻薄形态的场景图建立“接近 1 kg 机身”的直观印象；图片型号与任务型号一致。",
+        "source": "https://consumer.huawei.com/cn/harmonyos-computer/matebook-pro/"
+      },
+      {
+        "image_id": "I08",
+        "position": "after_paragraph_2",
+        "caption": "HUAWEI MateBook Pro 屏幕显示效果，呼应长文档阅读与 3:2 画布",
+        "reason": "段落2讲屏幕与长文档阅读，用屏幕展示图承接高分辨率与触控浏览的说明；该图为整机屏幕展示，未指向柔光版，避免与配置承诺混淆。",
+        "source": "https://consumer.huawei.com/cn/harmonyos-computer/matebook-pro/"
+      },
+      {
+        "image_id": "I07",
+        "position": "after_paragraph_4",
+        "caption": "HUAWEI MateBook Pro 产品细节，帮助读者留意接口与机身设计",
+        "reason": "段落4讲接口与扩展取舍，用产品细节图让读者在到店前对机身设计有直观参照；图片型号与任务型号一致。",
+        "source": "https://consumer.huawei.com/cn/harmonyos-computer/matebook-pro/"
+      }
+    ],
+    "cta": "如果你也常在通勤、客户现场和交通工具上办公，建议带着自己的必用软件、文件和外设到门店实机体验，按具体 SKU 核对屏幕版本、内存与存储、接口和系统，再决定是否把 HUAWEI MateBook Pro 放进候选清单。",
+    "hashtags": [],
+    "poster_lines": null
+  },
+  "fact_check": {
+    "is_verified": true,
+    "checked_claims": [
+      {
+        "claim": "HUAWEI MateBook Pro 官方机身重量 970 g、厚度 13.5 mm",
+        "location": "paragraph_1",
+        "evidence_fact_id": "F06",
+        "verdict": "已确认"
+      },
+      {
+        "claim": "实际尺寸和重量会随配置、制造与测量方法变化，具体以实际销售 SKU 标注为准",
+        "location": "paragraph_1",
+        "evidence_fact_id": "F06",
+        "verdict": "已确认"
+      },
+      {
+        "claim": "14.2 英寸 3:2 画布配合 3120 × 2080 分辨率",
+        "location": "paragraph_2",
+        "evidence_fact_id": "F03",
+        "verdict": "已确认"
+      },
+      {
+        "claim": "多点触控也让翻阅资料、标注重点更直接",
+        "location": "paragraph_2",
+        "evidence_fact_id": "F03",
+        "verdict": "已确认"
+      },
+      {
+        "claim": "云晰柔光屏仅 HUAWEI MateBook Pro 柔光版支持，屏幕形成漫反射，减轻灯光、阳光等光照的影响，不同使用条件和环境下体验可能略有差异",
+        "location": "paragraph_2",
+        "evidence_fact_id": "F03",
+        "verdict": "已确认"
+      },
+      {
+        "claim": "典型亮度 600 nits 与峰值亮度 1000 nits 不是同一使用条件",
+        "location": "paragraph_2",
+        "evidence_fact_id": "F03",
+        "verdict": "已确认"
+      },
+      {
+        "claim": "HUAWEI MateBook Pro 运行 HarmonyOS 6.1",
+        "location": "paragraph_3",
+        "evidence_fact_id": "F06",
+        "verdict": "已确认"
+      },
+      {
+        "claim": "可在鸿蒙设备生态中完成文件、输入和屏幕协同",
+        "location": "paragraph_3",
+        "evidence_fact_id": "F07",
+        "verdict": "已确认"
+      },
+      {
+        "claim": "也覆盖鸿蒙办公、多任务和已确认支持的 AI 辅助任务",
+        "location": "paragraph_3",
+        "evidence_fact_id": "F07",
+        "verdict": "已确认"
+      },
+      {
+        "claim": "内存提供 24 GB / 32 GB，存储为 512 GB / 1 TB",
+        "location": "paragraph_3",
+        "evidence_fact_id": "F06",
+        "verdict": "已确认"
+      },
+      {
+        "claim": "包装清单包含 USB-C 电源适配器线与 HUAWEI USB-C OTG 转接线",
+        "location": "paragraph_4",
+        "evidence_fact_id": "F04",
+        "verdict": "已确认"
+      },
+      {
+        "claim": "外设以 USB-C 为主、或可接受随附 OTG 与额外扩展坞的用户，衔接会更顺",
+        "location": "paragraph_4",
+        "evidence_fact_id": "F07",
+        "verdict": "已确认"
+      },
+      {
+        "claim": "如果工作流离不开原生 HDMI、USB-A 或 3.5 mm 耳机接口且不愿转接，就需要重新评估是否合适",
+        "location": "paragraph_4",
+        "evidence_fact_id": "F08",
+        "verdict": "已确认"
+      },
+      {
+        "claim": "同时连接多屏、高速存储和供电的组合，也建议先实机验证",
+        "location": "paragraph_4",
+        "evidence_fact_id": "F08",
+        "verdict": "已确认"
+      },
+      {
+        "claim": "HUAWEI MateBook Pro 更适合看重接近 1 kg 的机身、需要高分辨率长文档与 3:2 画布、外设以 USB-C 为主，并希望在鸿蒙生态里完成协同的移动办公者",
+        "location": "paragraph_5",
+        "evidence_fact_id": "F07",
+        "verdict": "已确认"
+      },
+      {
+        "claim": "下一步不是急着下单，而是按具体 SKU 核对系统、屏幕版本、内存与存储容量、接口和必用软件",
+        "location": "paragraph_5",
+        "evidence_fact_id": "F09",
+        "verdict": "已确认"
+      },
+      {
+        "claim": "建议带着自己的必用软件、文件和外设到门店实机体验，按具体 SKU 核对屏幕版本、内存与存储、接口和系统",
+        "location": "action_guide",
+        "evidence_fact_id": "F09",
+        "verdict": "已确认"
+      }
+    ],
+    "violations": [],
+    "unverified_items": [],
+    "confidence_score": 1.0
+  },
+  "image_check": {
+    "is_consistent": true,
+    "violations": [],
+    "checked_images": [
+      {
+        "image_id": "I06",
+        "file_name": "hwpc_matebook-pro-harmonyos_轻薄精致机身_03_3ddf67b9.jpg",
+        "model": "HUAWEI MateBook Pro",
+        "position": "after_paragraph_1"
+      },
+      {
+        "image_id": "I08",
+        "file_name": "hwpc_matebook-pro-harmonyos_高清护眼屏幕_01_7da16b65.jpg",
+        "model": "HUAWEI MateBook Pro",
+        "position": "after_paragraph_2"
+      },
+      {
+        "image_id": "I07",
+        "file_name": "hwpc_matebook-pro-harmonyos_精致产品细节_02_5b5cda90.jpg",
+        "model": "HUAWEI MateBook Pro",
+        "position": "after_paragraph_4"
+      }
+    ]
+  },
+  "compliance": {
+    "is_compliant": true,
+    "violations": [],
+    "risk_level": "low",
+    "approved_for_publication": true
+  },
+  "knowledge_source": "local",
+  "trace": {
+    "task_id": "98c210ab",
+    "steps": [
+      {
+        "step": "场景解析",
+        "status": "ok",
+        "detail": "型号归一化为「HUAWEI MateBook Pro」；人群=职场人士；场景=移动办公；平台=公众号",
+        "duration_ms": 0,
+        "data_summary": {}
+      },
+      {
+        "step": "平台策略",
+        "status": "ok",
+        "detail": "切入点：从‘移动办公的一天’切入：把出发前准备、途中离线、客户现场演示、资料回传串成一条链，说明HUAWEI MateBook Pro在哪些环节能进入候选清单、哪些环节需要先核对SKU与验证软件外设，帮助职场人士做理性种草而非冲动下单。",
+        "duration_ms": 8167,
+        "data_summary": {}
+      },
+      {
+        "step": "资料与图片检索",
+        "status": "ok",
+        "detail": "来源：本地同源知识库（P1-P8）；事实点10条；图片8张",
+        "duration_ms": 314,
+        "data_summary": {
+          "facts": 10,
+          "images": 8
+        }
+      },
+      {
+        "step": "事实点提取",
+        "status": "ok",
+        "detail": "已建立事实点ID（F编号）与来源映射，供生成引用与核验",
+        "duration_ms": 0,
+        "data_summary": {
+          "facts": [
+            "F01",
+            "F02",
+            "F03",
+            "F04",
+            "F05",
+            "F06",
+            "F07",
+            "F08",
+            "F09",
+            "F10"
+          ]
+        }
+      },
+      {
+        "step": "图文软文生成",
+        "status": "ok",
+        "detail": "标题：移动办公的一天：通勤、演示、回传，这台轻薄本先核对再决定",
+        "duration_ms": 7103,
+        "data_summary": {
+          "paragraphs": 5,
+          "images_planned": 3
+        }
+      },
+      {
+        "step": "图片型号核验",
+        "status": "ok",
+        "detail": "核验3张；问题0项",
+        "duration_ms": 0,
+        "data_summary": {}
+      },
+      {
+        "step": "事实核验",
+        "status": "ok",
+        "detail": "置信度1.00；无依据/待确认0项",
+        "duration_ms": 3278,
+        "data_summary": {}
+      },
+      {
+        "step": "合规检查",
+        "status": "ok",
+        "detail": "风险等级：low；命中0项",
+        "duration_ms": 742,
+        "data_summary": {}
+      },
+      {
+        "step": "导出",
+        "status": "ok",
+        "detail": "已生成统一输出格式Markdown与JSON",
+        "duration_ms": 0,
+        "data_summary": {
+          "knowledge_source": "本地同源知识库（P1-P8）"
+        }
+      }
+    ],
+    "started_at": "2026-10-18T17:08:10.864688"
+  },
+  "created_at": "2026-10-18T17:08:30.469792"
+}

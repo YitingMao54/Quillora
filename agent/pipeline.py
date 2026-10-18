@@ -249,8 +249,9 @@ class MarketingAgent:
         query = f"{task.target_audience} {task.scenario or ''} {strategy.content_strategy.get('angle', '')}"
         facts = self.knowledge.search_facts(task.product, query, limit=10)
         images = self.knowledge.search_images(task.product, query, limit=8)
-        source_note = ("ima共享知识库" if self.knowledge.active == "ima"
-                       else "本地知识库兜底（与ima同源资料）")
+        # 来源标注按"实际命中"而非"配置项"生成，避免把兜底数据标成ima
+        actual_source = self._actual_source(facts)
+        source_note = self.source_label(actual_source)
         trace.add("资料与图片检索", status="ok" if facts else "warn",
                   detail=f"来源：{source_note}；事实点{len(facts)}条；图片{len(images)}张",
                   duration_ms=int((time.perf_counter() - t0) * 1000),
@@ -312,9 +313,19 @@ class MarketingAgent:
             task=task, strategy=strategy, facts=facts, images=images,
             content=content, fact_check=fact_check, image_check=image_check,
             compliance=compliance_result,
-            knowledge_source=self.knowledge.active,
+            knowledge_source=actual_source,
             trace=trace,
         )
+
+    def _actual_source(self, facts: List[Fact]) -> str:
+        """按事实点来源路径判定实际数据来源（http=ima在线，本地路径=本地同源）"""
+        if not facts:
+            return self.knowledge.active
+        online = any(f.source_path.startswith("http") for f in facts)
+        offline = any(not f.source_path.startswith("http") for f in facts)
+        if online and offline:
+            return "ima+local"
+        return "ima" if online else "local"
 
     # ==================================================
     # 核验
@@ -530,13 +541,13 @@ class MarketingAgent:
         fc, ic, cp = result.fact_check, result.image_check, result.compliance
         lines.append(f"- 产品事实：{'通过' if fc.is_verified else '未通过'}（置信度 {fc.confidence_score:.2f}）")
         for v in fc.violations:
-            lines.append(f"  - [{v.severity}] {v.location}：{v.issue}")
+            lines.append(f"  - [{v.severity}] {v.location}：{v.issue or v.rule_category}")
         lines.append(f"- 图片型号：{'通过' if ic.is_consistent else '未通过'}")
         for v in ic.violations:
-            lines.append(f"  - [{v.severity}] {v.location}：{v.issue}")
+            lines.append(f"  - [{v.severity}] {v.location}：{v.issue or v.rule_category}")
         lines.append(f"- 合规：{'通过' if cp.is_compliant else '未通过'}（风险等级 {cp.risk_level}）")
         for v in cp.violations:
-            lines.append(f"  - [{v.severity}] {v.location}「{v.matched_text}」：{v.issue}")
+            lines.append(f"  - [{v.severity}] {v.location}「{v.matched_text}」：{v.issue or v.rule_category}")
         lines.append("- 待确认信息：")
         if fc.unverified_items:
             for item in fc.unverified_items:

@@ -48,7 +48,7 @@ def test_unified_format_fields_complete():
 
 def test_source_label_multi():
     md = MarketingAgent(llm=object()).export_markdown(_result("ima,local"))
-    assert "ima在线知识库 + 本地P1-P8数据" in md
+    assert "ima在线知识库 + 本地同源知识库（P1-P8）" in md
 
 
 def test_fact_content_not_truncated():

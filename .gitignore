@@ -11,7 +11,11 @@ __pycache__/
 .ruff_cache/
 
 # 运行数据与构建产物
-data/
+# data/ 下只保留可公开的示例：增强库（官网公开页结构化数据）与导出样例；
+# 接口缓存、运行日志属于本机状态，一律不进仓库。
+data/*
+!data/enriched/
+!data/outputs/
 dist/
 *.log
 
@@ -19,3 +23,6 @@ dist/
 .DS_Store
 .idea/
 .vscode/
+
+# 本地临时目录（pytest 等）
+.tmp/

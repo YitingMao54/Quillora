@@ -74,6 +74,24 @@ class LocalKnowledgeBase:
         self._images: List[Dict] = []                # 全部图片联合检索表行
         self._loaded = False
 
+    def _rel(self, path) -> str:
+        """来源路径脱敏：优先输出相对知识库根目录的路径
+
+        绝对路径会把本机用户名、目录结构写进导出件，既不可移植也不宜外发，
+        因此只要文件位于知识库根或其父目录内，就转成相对路径。
+        """
+        p = Path(path)
+        try:
+            resolved = p.resolve()
+        except OSError:
+            return str(p)
+        for base, prefix in ((self.root, ""), (self.root.parent, "../")):
+            try:
+                return prefix + resolved.relative_to(Path(base).resolve()).as_posix()
+            except (ValueError, OSError):
+                continue
+        return p.name
+
     # ---------- 加载 ----------
 
     def load(self) -> None:
@@ -184,7 +202,7 @@ class LocalKnowledgeBase:
                         content=f"【{title}】{body[:600]}",
                         product_model=product_model,
                         source_title=f"{product_model} · {Path(path).stem}",
-                        source_path=str(path),
+                        source_path=self._rel(path),
                     )))
 
         # 命中优先，未命中事实作为背景补充；保证生成始终有事实依据可引用
@@ -246,7 +264,7 @@ class LocalKnowledgeBase:
                     score += 2
                 candidates.append((score, {
                     "title": md.stem,
-                    "path": str(md),
+                    "path": self._rel(md),
                     "excerpt": text[:500],
                 }))
         candidates.sort(key=lambda x: -x[0])
@@ -261,9 +279,9 @@ class LocalKnowledgeBase:
         for base in sorted(self.root.glob("P*")):
             if not base.is_dir():
                 continue
-            items.append({"id": base.name, "name": base.name, "type": "folder", "path": str(base)})
+            items.append({"id": base.name, "name": base.name, "type": "folder", "path": self._rel(base)})
             for sub in sorted(base.iterdir()):
                 if sub.is_dir() and len(items) < limit:
                     items.append({"id": f"{base.name}/{sub.name}", "name": sub.name,
-                                  "type": "folder", "path": str(sub)})
+                                  "type": "folder", "path": self._rel(sub)})
         return items[:limit]

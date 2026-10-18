@@ -23,6 +23,14 @@ if not _logger.handlers:
     _logger.addHandler(_fh)
 
 
+def _display_path(path) -> str:
+    """对外展示用路径：相对项目根目录，避免把本机绝对路径带进报告"""
+    try:
+        return str(path.relative_to(config.PROJECT_ROOT))
+    except (ValueError, AttributeError):
+        return str(path)
+
+
 class EnrichService:
     """独立于主生成流程的可选增强服务（模块化隔离）"""
 
@@ -102,7 +110,7 @@ class EnrichService:
                               f"{len(crawled['pages'])}）→ {path.name}")
             report["results"].append({"model": model, "pages_ok": len(ok_pages),
                                       "pages_total": len(crawled["pages"]),
-                                      "stored_path": str(path)})
+                                      "stored_path": _display_path(path)})
 
         report["ok"] = bool(report["results"])
         return report

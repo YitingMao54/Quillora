@@ -17,7 +17,7 @@ ABSOLUTE_PATTERNS = [
 
 # 虚假承诺（一票否决）
 PROMISE_PATTERNS = [
-    "保证", "百分百", "100%", "永不", "绝对", "必然", "承诺", "零风险", "无与伦比",
+    "保证", "百分百", "100%", "永不", "绝对", "必然", "零风险", "无与伦比",
     "终身免费", "永不卡顿", "永不断电",
 ]
 
@@ -57,6 +57,30 @@ UGC_PLATFORMS = {"小红书"}
 
 _SEVERITY_RISK = {"critical": "法律风险", "high": "平台处罚风险", "medium": "品牌形象风险"}
 
+# 「第一」作序数用时不是绝对化用语（第一道门槛 / 第一次 / 第一步 …），
+# 只有「第一」单独作排名宣称（如"行业第一"）才命中
+ORDINAL_FOLLOWERS = (
+    "道", "次", "步", "时间", "眼", "感受", "印象", "反应", "件", "个", "名", "位",
+    "批", "阶段", "版", "代", "章", "页", "天", "周", "月", "年", "季", "季报",
+    "款", "台", "层", "条", "句", "段", "行", "点", "步是", "选择", "原则",
+    "要求", "门槛", "优先", "台账", "现场", "选择",
+)
+
+
+def _pattern_hit(pattern: str, text: str) -> bool:
+    """模式命中判断（含「第一」序数用法豁免）"""
+    if pattern != "第一":
+        return pattern in text
+    start = 0
+    while True:
+        idx = text.find("第一", start)
+        if idx < 0:
+            return False
+        tail = text[idx + 2: idx + 5]
+        if not any(tail.startswith(w) for w in ORDINAL_FOLLOWERS):
+            return True
+        start = idx + 2
+
 
 def _locate(text: str, index: int) -> str:
     """估算命中位置属于标题/第几段"""
@@ -84,7 +108,7 @@ def rule_check(content: Content, platform: str = "") -> ComplianceResult:
             continue
         for location, text in blocks:
             for pattern in patterns:
-                if pattern in text:
+                if _pattern_hit(pattern, text):
                     violations.append(Violation(
                         rule_category=category,
                         location=location,
