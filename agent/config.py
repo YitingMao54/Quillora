@@ -21,8 +21,27 @@ IMA_KNOWLEDGE_BASE_NAME = os.getenv("IMA_KNOWLEDGE_BASE_NAME", "任德耀新建�
 IMA_BASE_URL = os.getenv("IMA_BASE_URL", "https://ima.qq.com")
 
 # ===== 本地知识库兜底 =====
-_local_root = os.getenv("LOCAL_KB_ROOT", "..")
-LOCAL_KB_ROOT = (PROJECT_ROOT / _local_root).resolve() if not os.path.isabs(_local_root) else Path(_local_root)
+def _resolve_local_kb_root() -> Path:
+    """定位 P1-P8 知识库根目录
+
+    优先级：LOCAL_KB_ROOT 环境变量 → 项目上级目录（开发时的实时知识库）
+    → 仓库内置的 knowledge-base/（随仓库分发的公开快照）。
+    这样单独克隆仓库也能直接跑，本地开发则始终读最新知识库。
+    """
+    env = os.getenv("LOCAL_KB_ROOT", "").strip()
+    if env:
+        p = Path(env).expanduser()
+        return (PROJECT_ROOT / p).resolve() if not p.is_absolute() else p.resolve()
+    external = PROJECT_ROOT.parent
+    if (external / "P1-产品参数库").is_dir():
+        return external
+    bundled = PROJECT_ROOT / "knowledge-base"
+    if (bundled / "P1-产品参数库").is_dir():
+        return bundled
+    return external
+
+
+LOCAL_KB_ROOT = _resolve_local_kb_root()
 
 LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO")
 

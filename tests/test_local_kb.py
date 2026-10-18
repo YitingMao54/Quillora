@@ -3,12 +3,13 @@ from pathlib import Path
 
 import pytest
 
+from agent import config
 from agent.local_kb import LocalKnowledgeBase
 
-KB_ROOT = Path(__file__).resolve().parent.parent.parent
+# 与运行时同一套解析逻辑：LOCAL_KB_ROOT → 上级目录 → 仓库内置 knowledge-base/
+KB_ROOT = Path(config.LOCAL_KB_ROOT)
 
-# 知识库（P1-P8）是仓库外部的同源资料：仓库只发布代码与示例产物，
-# 单独克隆时没有知识库属于正常情况，相关用例跳过而不是报错。
+# 知识库未就位时（例如只拷了代码）跳过，而不是误报失败
 pytestmark = pytest.mark.skipif(
     not (KB_ROOT / "P1-产品参数库").is_dir(),
     reason=f"缺少 P1-P8 知识库（{KB_ROOT}），可用 LOCAL_KB_ROOT 指向知识库根目录",

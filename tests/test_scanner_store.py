@@ -3,14 +3,16 @@ from pathlib import Path
 
 import pytest
 
+from agent import config
 from agent.enrich.scanner import scan_folder
 from agent.enrich.store import EnrichStore
 from agent.knowledge import SOURCE_LABELS, KnowledgeSource
 
-KB_ROOT = Path(__file__).resolve().parent.parent.parent   # 知识库根目录（项目上级）
+# 与运行时同一套解析逻辑：LOCAL_KB_ROOT → 上级目录 → 仓库内置 knowledge-base/
+KB_ROOT = Path(config.LOCAL_KB_ROOT)
 SAMPLE_DIR = KB_ROOT / "P1-产品参数库" / "02-MateBook-Windows" / "MateBook X系列"
 
-# 依赖外部知识库的用例：单独克隆仓库（无 P1-P8）时跳过，其余用例仍照常执行
+# 依赖知识库的用例：知识库未就位时跳过，其余用例仍照常执行
 requires_kb = pytest.mark.skipif(
     not SAMPLE_DIR.is_dir(),
     reason=f"缺少 P1-P8 知识库（{KB_ROOT}），可用 LOCAL_KB_ROOT 指向知识库根目录",
